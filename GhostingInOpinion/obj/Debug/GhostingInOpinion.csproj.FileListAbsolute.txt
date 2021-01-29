@@ -2,9 +2,9 @@ C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\bin\Debug\Ghosti
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\bin\Debug\GhostingInOpinion.exe
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\bin\Debug\GhostingInOpinion.pdb
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csprojAssemblyReference.cache
-C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Form1.resources
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Properties.Resources.resources
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.GenerateResource.cache
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.CoreCompileInputs.cache
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.exe
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.pdb
+C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Dashboard.resources
