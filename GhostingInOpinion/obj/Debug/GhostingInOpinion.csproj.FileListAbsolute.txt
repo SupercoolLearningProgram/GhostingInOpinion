@@ -8,3 +8,5 @@ C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\Ghosti
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.exe
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.pdb
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Dashboard.resources
+C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\bin\Debug\DragAssembly.dll
+C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.CopyComplete
