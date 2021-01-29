@@ -254,13 +254,21 @@ namespace GhostingInOpinion
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+<<<<<<< HEAD
             this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+=======
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+>>>>>>> 7563bcd4ba55bd45ac8e52da438cbe662fb693e6
             this.openToolStripMenuItem.Text = "Open";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+<<<<<<< HEAD
             this.newToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+=======
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+>>>>>>> 7563bcd4ba55bd45ac8e52da438cbe662fb693e6
             this.newToolStripMenuItem.Text = "New";
             // 
             // editToolStripMenuItem
@@ -320,7 +328,6 @@ namespace GhostingInOpinion
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ghosting in Opinion";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Dashboard_FormClosing);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
