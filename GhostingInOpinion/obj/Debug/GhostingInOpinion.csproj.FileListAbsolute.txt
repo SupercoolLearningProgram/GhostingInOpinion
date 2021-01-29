@@ -11,3 +11,15 @@ C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\Ghosti
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\bin\Debug\DragAssembly.dll
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.CopyComplete
 C:\Users\ferry\source\repos\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.LoginForm.resources
+D:\newgit\GhostingInOpinion\GhostingInOpinion\bin\Debug\GhostingInOpinion.exe.config
+D:\newgit\GhostingInOpinion\GhostingInOpinion\bin\Debug\GhostingInOpinion.exe
+D:\newgit\GhostingInOpinion\GhostingInOpinion\bin\Debug\GhostingInOpinion.pdb
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csprojAssemblyReference.cache
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Dashboard.resources
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.LoginForm.resources
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.Properties.Resources.resources
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.GenerateResource.cache
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.CoreCompileInputs.cache
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.csproj.CopyComplete
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.exe
+D:\newgit\GhostingInOpinion\GhostingInOpinion\obj\Debug\GhostingInOpinion.pdb

@@ -67,9 +67,10 @@ namespace GhostingInOpinion
             this.panel2.Controls.Add(this.MusicButton);
             this.panel2.Controls.Add(this.ProfileButton);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(-12, 25);
+            this.panel2.Location = new System.Drawing.Point(-16, 31);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(215, 561);
+            this.panel2.Size = new System.Drawing.Size(287, 690);
             this.panel2.TabIndex = 1;
             // 
             // SettingButton
@@ -79,9 +80,10 @@ namespace GhostingInOpinion
             this.SettingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SettingButton.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SettingButton.ForeColor = System.Drawing.SystemColors.Info;
-            this.SettingButton.Location = new System.Drawing.Point(-16, 519);
+            this.SettingButton.Location = new System.Drawing.Point(-21, 639);
+            this.SettingButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SettingButton.Name = "SettingButton";
-            this.SettingButton.Size = new System.Drawing.Size(250, 36);
+            this.SettingButton.Size = new System.Drawing.Size(333, 44);
             this.SettingButton.TabIndex = 4;
             this.SettingButton.Text = "Setting";
             this.SettingButton.UseVisualStyleBackColor = false;
@@ -93,9 +95,10 @@ namespace GhostingInOpinion
             this.MovieButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
             this.MovieButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MovieButton.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MovieButton.Location = new System.Drawing.Point(0, 286);
+            this.MovieButton.Location = new System.Drawing.Point(0, 352);
+            this.MovieButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MovieButton.Name = "MovieButton";
-            this.MovieButton.Size = new System.Drawing.Size(215, 44);
+            this.MovieButton.Size = new System.Drawing.Size(287, 54);
             this.MovieButton.TabIndex = 2;
             this.MovieButton.Text = "Movie";
             this.MovieButton.UseVisualStyleBackColor = true;
@@ -107,9 +110,10 @@ namespace GhostingInOpinion
             this.BookButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
             this.BookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BookButton.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BookButton.Location = new System.Drawing.Point(0, 242);
+            this.BookButton.Location = new System.Drawing.Point(0, 298);
+            this.BookButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BookButton.Name = "BookButton";
-            this.BookButton.Size = new System.Drawing.Size(215, 44);
+            this.BookButton.Size = new System.Drawing.Size(287, 54);
             this.BookButton.TabIndex = 3;
             this.BookButton.Text = "Book";
             this.BookButton.UseVisualStyleBackColor = true;
@@ -121,9 +125,10 @@ namespace GhostingInOpinion
             this.MusicButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
             this.MusicButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MusicButton.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MusicButton.Location = new System.Drawing.Point(0, 198);
+            this.MusicButton.Location = new System.Drawing.Point(0, 244);
+            this.MusicButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MusicButton.Name = "MusicButton";
-            this.MusicButton.Size = new System.Drawing.Size(215, 44);
+            this.MusicButton.Size = new System.Drawing.Size(287, 54);
             this.MusicButton.TabIndex = 2;
             this.MusicButton.Text = "Music";
             this.MusicButton.UseVisualStyleBackColor = true;
@@ -135,9 +140,10 @@ namespace GhostingInOpinion
             this.ProfileButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
             this.ProfileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProfileButton.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProfileButton.Location = new System.Drawing.Point(0, 154);
+            this.ProfileButton.Location = new System.Drawing.Point(0, 190);
+            this.ProfileButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProfileButton.Name = "ProfileButton";
-            this.ProfileButton.Size = new System.Drawing.Size(215, 44);
+            this.ProfileButton.Size = new System.Drawing.Size(287, 54);
             this.ProfileButton.TabIndex = 1;
             this.ProfileButton.Text = "Profile";
             this.ProfileButton.UseVisualStyleBackColor = true;
@@ -148,16 +154,18 @@ namespace GhostingInOpinion
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(215, 154);
+            this.panel3.Size = new System.Drawing.Size(287, 190);
             this.panel3.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GhostingInOpinion.Properties.Resources.Lisa;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 196);
+            this.pictureBox1.Size = new System.Drawing.Size(267, 241);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -167,9 +175,10 @@ namespace GhostingInOpinion
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.GoButton);
             this.panel4.Controls.Add(this.SearchTextbox);
-            this.panel4.Location = new System.Drawing.Point(200, 25);
+            this.panel4.Location = new System.Drawing.Point(267, 31);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(749, 555);
+            this.panel4.Size = new System.Drawing.Size(999, 683);
             this.panel4.TabIndex = 2;
             // 
             // GoButton
@@ -177,9 +186,10 @@ namespace GhostingInOpinion
             this.GoButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.GoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GoButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.GoButton.Location = new System.Drawing.Point(650, 35);
+            this.GoButton.Location = new System.Drawing.Point(867, 43);
+            this.GoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GoButton.Name = "GoButton";
-            this.GoButton.Size = new System.Drawing.Size(89, 22);
+            this.GoButton.Size = new System.Drawing.Size(119, 27);
             this.GoButton.TabIndex = 2;
             this.GoButton.Text = "Go";
             this.GoButton.UseVisualStyleBackColor = true;
@@ -188,9 +198,10 @@ namespace GhostingInOpinion
             // 
             this.SearchTextbox.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchTextbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.SearchTextbox.Location = new System.Drawing.Point(447, 7);
+            this.SearchTextbox.Location = new System.Drawing.Point(596, 9);
+            this.SearchTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SearchTextbox.Name = "SearchTextbox";
-            this.SearchTextbox.Size = new System.Drawing.Size(292, 22);
+            this.SearchTextbox.Size = new System.Drawing.Size(388, 26);
             this.SearchTextbox.TabIndex = 1;
             this.SearchTextbox.Text = "Search for something";
             // 
@@ -201,9 +212,10 @@ namespace GhostingInOpinion
             this.ExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitButton.ForeColor = System.Drawing.Color.White;
-            this.ExitButton.Location = new System.Drawing.Point(910, 1);
+            this.ExitButton.Location = new System.Drawing.Point(1213, 1);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(39, 23);
+            this.ExitButton.Size = new System.Drawing.Size(52, 28);
             this.ExitButton.TabIndex = 3;
             this.ExitButton.Text = "X";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -212,6 +224,7 @@ namespace GhostingInOpinion
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(46)))));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -222,7 +235,7 @@ namespace GhostingInOpinion
             this.debugToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(951, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1268, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseDown);
@@ -235,74 +248,75 @@ namespace GhostingInOpinion
             this.newToolStripMenuItem});
             this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.newToolStripMenuItem.Text = "New";
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // gitToolStripMenuItem
             // 
             this.gitToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.gitToolStripMenuItem.Name = "gitToolStripMenuItem";
-            this.gitToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
+            this.gitToolStripMenuItem.Size = new System.Drawing.Size(42, 24);
             this.gitToolStripMenuItem.Text = "Git";
             // 
             // projectToolStripMenuItem
             // 
             this.projectToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
-            this.projectToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.projectToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.projectToolStripMenuItem.Text = "Project";
             // 
             // buildToolStripMenuItem
             // 
             this.buildToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.buildToolStripMenuItem.Name = "buildToolStripMenuItem";
-            this.buildToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.buildToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
             this.buildToolStripMenuItem.Text = "Build";
             // 
             // debugToolStripMenuItem
             // 
             this.debugToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
-            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.debugToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.debugToolStripMenuItem.Text = "Debug";
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(47)))));
-            this.ClientSize = new System.Drawing.Size(951, 577);
+            this.ClientSize = new System.Drawing.Size(1268, 710);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ghosting in Opinion";

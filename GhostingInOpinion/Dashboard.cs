@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 namespace GhostingInOpinion
 {
     public partial class Dashboard : Form
-    {
+    { 
         // Dragging Menustrips variable and library.
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -24,6 +24,8 @@ namespace GhostingInOpinion
 
         public Dashboard()
         {
+            LoginForm g = new LoginForm();
+            g.Show;
             InitializeComponent(); 
         }
 
