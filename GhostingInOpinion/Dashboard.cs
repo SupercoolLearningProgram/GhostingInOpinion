@@ -12,7 +12,7 @@ namespace GhostingInOpinion
 {
     public partial class Dashboard : Form
     {
-
+        // Dragging Menustrips variable and library.
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
         [DllImportAttribute("user32.dll")]
@@ -20,10 +20,14 @@ namespace GhostingInOpinion
                  int Msg, int wParam, int lParam);
         [DllImportAttribute("user32.dll")]
         private static extern bool ReleaseCapture();
+        // Dragging Menustrips variable and library.
+
         public Dashboard()
         {
             InitializeComponent(); 
         }
+
+        // Window Form shadow dropping (Decoration)
         private const int CS_DropShadow = 0x00020000;
         protected override CreateParams CreateParams
         {
@@ -34,12 +38,10 @@ namespace GhostingInOpinion
                 return cp;
             }
         }
+        // Window Form shadow dropping (Decoration)
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
+        // Dragging Menustrips Event capture
         private void menuStrip1_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -57,5 +59,21 @@ namespace GhostingInOpinion
             }
         }
 
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void Dashboard_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
+
+        }
+        // Dragging Menustrips Event capture
     }
 }
