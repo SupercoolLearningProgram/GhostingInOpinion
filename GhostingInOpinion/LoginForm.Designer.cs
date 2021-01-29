@@ -47,7 +47,7 @@ namespace GhostingInOpinion
             // 
             this.getstarted.AutoSize = true;
             this.getstarted.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.getstarted.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.getstarted.ForeColor = System.Drawing.SystemColors.Control;
             this.getstarted.Location = new System.Drawing.Point(78, 33);
             this.getstarted.Name = "getstarted";
             this.getstarted.Size = new System.Drawing.Size(135, 32);
@@ -56,7 +56,7 @@ namespace GhostingInOpinion
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.panel1.BackColor = System.Drawing.Color.SlateBlue;
             this.panel1.Controls.Add(this.getstarted);
             this.panel1.Location = new System.Drawing.Point(-2, 0);
             this.panel1.Name = "panel1";
