@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 namespace GhostingInOpinion
+
 {
     public partial class Dashboard : Form
     {
@@ -26,6 +27,7 @@ namespace GhostingInOpinion
         {
             InitializeComponent(); 
         }
+
 
         // Window Form shadow dropping (Decoration)
         private const int CS_DropShadow = 0x00020000;
@@ -65,15 +67,5 @@ namespace GhostingInOpinion
         }
 
 
-        private void Dashboard_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                e.Cancel = true;
-                Hide();
-            }
-
-        }
-        // Dragging Menustrips Event capture
     }
 }
